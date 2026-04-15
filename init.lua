@@ -17,7 +17,7 @@ if tonumber(crafttools.VERSION) <= 20101 then
 	)
 end
 
-if tonumber(COMPLIB.VERSION) <= 5 then
+if tonumber(COMPLIB.VERSION) < 5 then
 	error(
 		"ComponentsLib-CraftTools Compatibility requires ComponentsLib version 0.0.5 or greater, but only version "
 		.. table.concat({
