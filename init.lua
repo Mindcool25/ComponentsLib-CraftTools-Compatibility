@@ -1,8 +1,8 @@
 
 CTCL_COMPAT = {
-	VERSION = '010000',
-	modpath = core.get_modpath 'ctcl_compat',
-	gettext = core.get_translator 'ctcl_compat'
+	VERSION = "010000",
+	modpath = core.get_modpath "ctcl_compat",
+	gettext = core.get_translator "ctcl_compat"
 }
 
 if tonumber(crafttools.VERSION) <= 20101 then
