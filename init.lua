@@ -5,7 +5,7 @@ CLCT_COMPAT = {
 	gettext = core.get_translator "clct_compat"
 }
 
-if tonumber(crafttools.VERSION) <= 20101 then
+if tonumber(crafttools.VERSION) < 20101 then
 	error(
 		"ComponentsLib-CraftTools Compatibility requires CraftTools version 2.1.1 or greater, but only version "
 		.. table.concat({
