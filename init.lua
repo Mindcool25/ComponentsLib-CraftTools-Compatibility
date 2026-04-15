@@ -7,7 +7,7 @@ CTCL_COMPAT = {
 
 if tonumber(crafttools.VERSION) <= 20101 then
 	error(
-		"ComponentsLib-CraftTools Compatibility requires CraftTools version 2.1.1 or greater, but only verion "
+		"ComponentsLib-CraftTools Compatibility requires CraftTools version 2.1.1 or greater, but only version "
 		.. table.concat({
 			tonumber(crafttools.VERSION:sub(1,2)),
 			tonumber(crafttools.VERSION:sub(3,4)),
